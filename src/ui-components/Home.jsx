@@ -18,7 +18,7 @@ const Home = () => {
       <Grid container spacing={2}>
         {data.map((user, index) => {
           return (
-            <Grid key={index} item xs={4}>
+            <Grid key={index} item xs={12}  sm={6} md={4}>
               <Card sx={{ minWidth: 275 }}>
                 <CardContent>
                   <Typography  sx={{ mb: 1.5 }} color="text.secondary">
